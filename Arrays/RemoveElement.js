@@ -2,8 +2,6 @@
 
 //REMOVE ELEMENT - EASY
 
-
-
 // Given an integer array nums and an integer val, remove all occurrences of val in nums in-place. The relative order of the elements may be changed.
 
 // Since it is impossible to change the length of the array in some languages, you must instead have the result be placed
@@ -15,8 +13,6 @@
 // Do not allocate extra space for another array. You must do this by modifying the input array in-place with O(1) extra memory.
 
 
-
-//My Solution
 //TIME COMPLEXITY - O(N^2)
 //SPACE COMPLEXITY - O(N)
 
