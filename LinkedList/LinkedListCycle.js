@@ -11,7 +11,32 @@
 
 
 
-
+//OPTIMAL APPROACH - LESS MEMORY
+//TIME COMPLEXITY - O(N)
+//SPACE COMPLEXITY - O(1)
+var hasCycle = function(head) {
+    
+    if(!head)
+        {
+            return false
+        }
+    
+    let slowPointer = head
+    let fastPointer=head.next
+    while(slowPointer && fastPointer)
+        {
+        
+        if(slowPointer == fastPointer)
+            {
+                return true
+            }
+            
+        slowPointer=slowPointer.next
+        fastPointer=fastPointer.next?.next
+        }
+    
+    return false
+};
 
 
 
