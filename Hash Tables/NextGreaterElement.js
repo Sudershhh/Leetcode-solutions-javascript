@@ -8,7 +8,7 @@
 // Return an array ans of length nums1.length such that ans[i] is the next greater element as described above.
 
 
-//TIME COMPLEXITY - O(N^2)
+//TIME COMPLEXITY - O(N * M)
 //SPACE COMPLEXITY - O(N)
 var nextGreaterElement = function(nums1, nums2) {
     
